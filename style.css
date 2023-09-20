@@ -230,9 +230,6 @@ img.portfolio {
     max-width: 475px;
 }
 
-div.frame h2 {
-    padding-top: 15px;
-}
 
 .display-mobile {
     display: none;
@@ -298,7 +295,7 @@ div.frame h2 {
     }
 
     iframe {
-        height: 320px;
+        height: 400px;
     }
 
     table.frame_table {
