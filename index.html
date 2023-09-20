@@ -29,15 +29,17 @@
     </div>
 
     <!-- WHITE -->
-    <div class="section">
+    <div class="section" style="overflow: auto;">
         <h2>About me</h2>
-        <img class="col40" src="profile2.jpg">
-        <div class="col60 float-right">
-            <p>Passionate about programming since I was young. I am now a professional developer with mare than 16 years of experience.
-                <br><br>
-                Expert in <b>web and modile applications</b>, I am available for freelance contacts on these platforms
-            </p>
-            <a href="https://vk.com/id150261120" target="_blank">More information about me</a>
+        <img class="col-content" src="profile2.jpg">
+        <div class="col-content float-right">
+            <div class="text-with-vertical-line">
+                <p>Passionate about programming since I was young. I am now a professional developer with mare than 16 years of experience.
+                    <br><br>
+                    Expert in <b>web and modile applications</b>, I am available for freelance contacts on these platforms
+                </p>
+                <a href="https://vk.com/id150261120" target="_blank">More information about me</a>
+            </div> 
         </div>
     </div>
 
@@ -45,14 +47,29 @@
     <!-- GREY 2 -->
     <div class="section grey-section-2">
         <h2>Portfolio</h2>
-        <a href="recipe.html" target="_blank">Some recipe from me</a>
-
+        <table class="col_portfolio" style="display: inline-block";>
+            <tr>
+                <td><div class="vertical-bar"></div></td>
+                <td><a href="web_site_portfolio.html" target="_blank"><img style="width: 100%;" src="project1small.jpg"></td></a>
+            </tr>
+            <tr>
+                <td></td>
+                <td align="center"><a href="web_site_portfolio.html" target="_blank">Restaurant website</a></td>
+            </tr>
+        </table>
+        <table class="col_portfolio float-right">
+            <tr>
+                <td><div class="vertical-bar"></div></td>
+                <td><a href="web_site_portfolio1.html" target="_blank"><img style="width: 100%" src="project2small.jpg"></a></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td align="center"><a href="web_site_portfolio1.html" target="_blank">Game for Addroid</a></td>
+            </tr>
+        </table>
     </div>
     
     <!-- WHITE -->
-    <div class="section">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae dolorem, repellat adipisci accusantium laudantium magnam recusandae beatae numquam ex consequatur expedita nulla repellendus, corrupti, quo deserunt sed quam maxime. Doloremque.
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit velit odit aperiam aliquam nam ipsum sit at quasi quibusdam quod, esse dicta explicabo quas non ab aliquid dolore fugit deserunt!
-    </div>
+    <iframe src="contact-frame.html" scrolling="no" </iframe>
 </body>
 </html>
